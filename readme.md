@@ -21,7 +21,7 @@
 #### Seattle, WA
 #### Applications Developer, March 2010 to present
 
-[desc]
+ * Lead developer of 'Intrepid Agile' informal learning portals.
 
 ### Tweetajob
 #### Seattle, WA
