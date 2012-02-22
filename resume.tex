@@ -1,0 +1,154 @@
+% resume.tex
+%
+%  J. Borzilleri <jonathan.borzilleri@gmail.com> http://www.asylumsw.com
+%
+%  Based off tex resume:
+%  (c) 2002 Matthew M. Boedicker <mboedick@mboedick.org> http://mboedick.org
+%
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\usepackage{helvetica}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	urlcolor=cyan
+}
+
+\begin{document}
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\LARGE \textbf{Jonathan Marc Borzilleri}  & \\
+800 Queen Anne Ave. North, Apt 502 &
+	585-214-9359 \\
+Seattle, WA 98109-4086 &
+	\href{mailto:jonathan.borzilleri.jobs@gmail.com}{jonathan.borzilleri.jobs@gmail.com} \\
+\href{http://duaiwe.github.com}{Github} &
+	\href{http://twitter.com/duaiwe}{@duaiwe} \\
+\end{tabular*}
+
+\hrule
+
+\vspace{0.25in}
+{\Large \textbf{Skills}}
+\begin{description}
+\item[Languages:] \hfill \\
+Proficient in: PHP, Perl, HTML, CSS, Javascript, SQL, Bash, Java. \\
+Experience with: Ruby, Python, VB.NET, C/C++, MongoDB, \LaTeX
+
+\item[Software:] Experience developing on all major operating systems,
+though Linux \& Vim is my preferred environment. I have experience with
+Git, SVN, Hg, Jenkins, and Ant.
+\end{description}
+
+\vspace{0.2in}
+{\Large \textbf{Work History}}
+\begin{itemize}
+
+\item
+	\begin{tabular*}{6in}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{Intrepid Learning Solutions} & March 2010 - Present \\
+		\textbf{Applications Developer} & Seattle, WA \\
+	\end{tabular*}
+
+	At Intrepid I lead the development of the web app component of the
+	\href{http://intrepidlearning.com/what-we-do/learning-technology/intrepid-agile/}{Intrepid Agile}
+	product. I built a PHP MVC framework that would allow interaction with the
+	REST-based API of the back end CMS, which is implemented in Java, using
+	MongoDB and ElasticSearch.
+
+	I have also done significant work implementing functionality using modern
+	modern javascript techniques with Backbone and RequireJS. Additionally, I
+	manage releases for our currenty deployed projects and maintain Ant build
+	scripts which allow rapid building \& deploying of the codebase using Jenkins.
+
+	\begin{itemize}
+		\item Lead development of PHP/HTML front end for Intrepid Agile product.
+		\item Built PHP web framework to handle \& route requests, and wrappers to
+		interact with back end REST API.
+		\item Implemented REST API in PHP for third party integrations.
+		\item Manage builds and deploys of projects for our team's projects.
+	\end{itemize}
+
+\item
+	\begin{tabular*}{6in}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{Tweetajob} & September 2009 - December 2009 \\
+		\textbf{PHP/MySQL Web Development} & Seattle, WA \\
+		\end{tabular*}
+
+		As one of a handful of employees in this startup, I was responsible for
+		building many aspects of the site. However, my primary focus was on
+		building the admin console for site management. The site was built using
+		the Kohana PHP framework, object oriented PHP, a MySQL back end, and hosted
+		on Amazon EC2.
+
+		\begin{itemize}
+			\item Developed admin console, allowing for managing recruiter users,
+			tweet interaction, and other site management.
+			\item Used Twitter's API to implement functionality to monitor and
+			delete tweets sent by the system.
+			\item Used Authorize.NET API to implement payment processing system
+			for one-off and recurring payments.
+		\end{itemize}
+
+\item
+	\begin{tabular*}{6in}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{Implied Solutions, LLC} & March 2009 - May 2009 \\
+		\textbf{PHP/MySQL Web Development} & Seattle, WA \\
+		\end{tabular*}
+
+		I was the primary developer behind \textit{Running Rewards}, a site designed
+		to engage the marathon/running community and provide information on event
+		goodie bags and other incentives. Built using object oriented PHP, with a
+		MySQL back end, and the Doctrine ORM for PHP.
+
+		\begin{itemize}
+			\item Designed \& developed site based on client requirements.
+			\item Implemented UI based on designer photoshop mockups.
+		\end{itemize}
+
+\item
+	\begin{tabular*}{6in}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{The Active Network} & June 2007 - September 2008 \\
+		\textbf{Thriva - SOA Development} & Bothell, WA \\
+		\end{tabular*}
+
+		While I was the primary developer behind the SOA/Business layer for Active's
+		Thriva product, I often ended up working heavily in the SQL Server database,
+		as well as troubleshooting and tweaking the SOAP integration with the
+		ASP.NET front end.
+
+		I also lead development of a Windows service application to handle
+		performing jobs across multiple client databases, such as recurring billing
+		payments, and asyncronous registration processing.
+
+		\begin{itemize}
+			\item Lead developer for SOA project, the SOAP interface and business
+			logic application for Thriva product.
+			\item Lead development for a windows service app to handle asyncronous
+			proccessing of data across multiple sql server databases.
+		\end{itemize}
+
+\end{itemize}
+
+\vspace{0.2in}
+{\Large \textbf{Education}}
+	\begin{itemize}
+	\item
+	\begin{tabular*}{6in}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{Rochester Institute of Technology} & Rochester, NY \\
+		Bachelor of Science in Computer Science & \\
+		Minor in Philosophy & \\
+	\end{tabular*}
+	\end{itemize}
+
+% \vspace{0.2in}
+% \textbf{References available upon request.}
+
+\end{document}
+
