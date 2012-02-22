@@ -14,14 +14,21 @@
 **Software**
 
  > I have experience developing on all major operating systems, although Linux is my preferred OS for most work, with Vim being my preferred IDE. I have extensive experience with both Git and SVN.
- 
+
 ## Experience
 
-### Intrepid Learning Solutions, 
+### Intrepid Learning Solutions,
 #### Seattle, WA
 #### Applications Developer, March 2010 to present
 
- * Lead developer of 'Intrepid Agile' informal learning portals.
+	At Intrepid I lead the development of the web app component of the *Intrepid Agile* product. I built a PHP MVC framework that would allow interaction with the REST-based API of the back end CMS, which is implemented in Java, using MongoDB and ElasticSearch.
+
+	I have also done significant work implementing functionality using modern modern javascript techniques with Backbone and RequireJS. Additionally, I manage releases for our currenty deployed projects and maintain Ant build scripts which allow rapid building \& deploying of the codebase using Jenkins.
+
+	* Lead development of PHP/HTML front end for Intrepid Agile product.
+	* Built PHP web framework to handle \& route requests, and wrappers to interact with back end REST API.
+	* Implemented REST API in PHP for third party integrations.
+	* Manage builds and deploys of projects for our team's projects.
 
 ### Tweetajob
 #### Seattle, WA
@@ -33,7 +40,7 @@ As one of only a handful of employees at this startup I was responsible for many
  * Used Twitter's API to implement functionality to monitor & delete tweets.
  * Used Authorize.NET api to implement payment processing system for recurring
  and one-off payments.
- 
+
 ### Implied Solutions, LLC
 #### Seattle, WA
 #### Software Developer, March 2009 - May 2009
@@ -42,7 +49,7 @@ I was the primary developer behind *Running Rewards*, a site designed to engage 
 
  * Took client requirements and designed & developed site based on these.
  * Implemented UI based on designer photoshop files.
- 
+
 ### Thriva, The Active Network
 #### Seattle, WA
 #### Software Developer, June 2009 - September 2008
