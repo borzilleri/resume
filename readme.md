@@ -1,7 +1,8 @@
 # Jonathan Borzilleri
 
- * <jonathan.borzilleri@gmail.com>
+ * 800 Queen Anne Ave North, Apt 502, Seattle, WA 98109
  * 585-214-9359
+ * <jonathan.borzilleri@gmail.com>
 
 ## Systems Proficiency
 
